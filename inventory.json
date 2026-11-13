@@ -4,6 +4,11 @@
         "name": "Laptop",
         "price": 120.0,
         "stock": 15,
+        "supplier": {
+            "supplier_id": "SUP01",
+            "name": "TechSupply",
+            "contact_email": "sales@techsupply.com"
+        },
         "type": "physical",
         "weight": 2.0
     },
@@ -12,6 +17,11 @@
         "name": "Mouse",
         "price": 25.0,
         "stock": 40,
+        "supplier": {
+            "supplier_id": "SUP01",
+            "name": "TechSupply",
+            "contact_email": "sales@techsupply.com"
+        },
         "type": "physical",
         "weight": 0.1
     },
@@ -20,6 +30,11 @@
         "name": "USB Cable",
         "price": 45.0,
         "stock": 25,
+        "supplier": {
+            "supplier_id": "SUP01",
+            "name": "TechSupply",
+            "contact_email": "sales@techsupply.com"
+        },
         "type": "physical",
         "weight": 0.05
     },
@@ -28,6 +43,11 @@
         "name": "Monitor",
         "price": 299.99,
         "stock": 10,
+        "supplier": {
+            "supplier_id": "SUP01",
+            "name": "TechSupply",
+            "contact_email": "sales@techsupply.com"
+        },
         "type": "physical",
         "weight": 5.0
     },
@@ -36,6 +56,11 @@
         "name": "Antivirus",
         "price": 59.9,
         "stock": 100,
+        "supplier": {
+            "supplier_id": "SUP02",
+            "name": "SoftHub",
+            "contact_email": "orders@softhub.com"
+        },
         "type": "digital",
         "download_size": 350.0
     },
@@ -44,7 +69,38 @@
         "name": "Exclusive Gamepass by Arkana",
         "price": 57.45,
         "stock": 700,
+        "supplier": {
+            "supplier_id": "SUP02",
+            "name": "SoftHub",
+            "contact_email": "orders@softhub.com"
+        },
         "type": "subscription",
         "duration_months": 24
+    },
+    {
+        "id": "L007",
+        "name": "Cloud Drive",
+        "price": 2.93,
+        "stock": 82,
+        "supplier": {
+            "supplier_id": "SUP02",
+            "name": "SoftHub",
+            "contact_email": "orders@softhub.com"
+        },
+        "type": "subscription",
+        "duration_months": 1
+    },
+    {
+        "id": "B008",
+        "name": "Nvidia RTX",
+        "price": 1399.99,
+        "stock": 2000,
+        "supplier": {
+            "supplier_id": "NEW",
+            "name": "B008",
+            "contact_email": "2603658@sit.singaporetech.edu.sg"
+        },
+        "type": "physical",
+        "weight": 7.0
     }
 ]
